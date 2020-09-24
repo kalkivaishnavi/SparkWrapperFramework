@@ -19,7 +19,7 @@ object SparkOptimizedWrapper {
 
     val sc = sparkWrapperSession.sparkContext
 
-    logger.info("Wrapper Application Id " + sc.applicationId)
+    logger.info("Wrapper Application Id framework " + sc.applicationId)
     
 
     //Read job plan execution map to Array.
